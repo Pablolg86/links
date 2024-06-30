@@ -1,0 +1,83 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    padding: 0 10rem 10rem 10rem;
+    background-repeat: no-repeat;
+    background-color: rgb(161, 38, 38);
+    width: 110rem;
+    height: 150rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:110;
+    background-color: white;
+}
+
+.menu-1{
+    position: relative;
+    display: inline-block;
+    height: 2.5rem;
+}
+
+
+
+.estilo-boton{
+    background-color: rgb(161, 38, 38);
+    display: inline;
+    color: white;
+    cursor: pointer;
+    border: rgb(14, 14, 66);
+    border-style: solid;
+    
+    
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(14, 14, 66);
+    
+}
+
+
+.dropdown a{ 
+    color:white; 
+    font-family: 'Space Grotesk';
+    font-style:normal;
+    font-stretch: condensed;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem;
+
+}
+
+
+.dropdown a:hover{
+    background-color: rgb(161, 38, 38);
+    
+}
+
+.menu-1:hover .dropdown{
+    display: block;    
+}
+
+
+
+main{
+    width: 110rem;
+    height: 150rem;
+}
+
+.img-main{
+    width: 110rem;
+    height: 190rem;
+}
+    
+
+
